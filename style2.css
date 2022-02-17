@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 50px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+html { 
+    background: url(bigsur-02-01.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+  }
+  .element1{
+    width:200px;
+    height:200px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-position: center;
+    object-fit:cover;
+  }
+
+  .element1 :hover{
+    width: 200;
+    height:200px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-position: center;
+    object-fit:cover;
+  }
+
+  .container{
+		width: 200;
+		padding: 0px;
+		margin: 50px auto;
+		background: rgba(221, 221, 221, 0);
+		display: flex;
+		flex-direction: row;
+		justify-content:center;
+
+	}
+
+	.box{
+		width: 200px;
+		height: 200px;
+    border-radius: 25px;
+    background-position: center;
+    object-fit:cover;
+		background: black;
+    margin: 00px 22.5px;
+    transition: 0.25s;
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0);
+	}
+
+  .smallbox{
+		width: 200px;
+		height: 200px;
+    border-radius: 25px;
+    background-position: center;
+    object-fit:cover;
+		background: black;
+    margin: 00px 00px;
+    transition: 0.25s;
+    
+  }
+
+	.box:hover{
+		transform: scale(1.2);
+		background: rgba(0, 0, 0, 0.747);
+		z-index: 2;
+		box-shadow: 2px 2px 2px #000;
+		position: relative;
+      text-align: center;
+      color: white;
+	}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.button{
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-position: center;
+  object-fit:cover;
+  background: rgba(255, 255, 255, 0.11);
+  margin: 40px 50px;
+  transition: 0.25s;
+  position: relative;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12.5px;
+  color: rgb(255, 255, 255);   
+}
+
+.button:hover{
+  transform: scale(1.1);
+  border-radius: 25px;
+  background-position: center;
+  object-fit:cover;
+  background: rgb(255, 255, 255);
+  margin: 40px 50px;
+  transition: 0.25s;
+  position: relative;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12.5px;
+  color: rgb(0, 0, 0);   
+   
+}
